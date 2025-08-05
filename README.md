@@ -4,6 +4,7 @@ From Traditional Shop to Digital Enterprise
 For over 30 years, my father has run a successful building-materials shop in Mumbai. Inventory management, pricing, and customer relationships were all handled the old-fashioned way—with memory and notebooks. As a data engineer, I couldn't help but see a world of potential.
 
 MISSION
+
 This project is the first step in a larger vision. I plan to eventually integrate live inventory, build comprehensive dashboards, and expand the business into new markets. It's a blend of a father’s hands-on legacy and a son's cloud-first mindset—a future in the making.
 It's a commitment to use technology to scale a family legacy.
 

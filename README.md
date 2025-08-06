@@ -37,6 +37,7 @@ Challenge: No online presence.
 Solution: A discoverable, SEO-friendly website is being built to attract new customers.
 
 Tech Stack
+
 I'm building this project with a modern tech stack to mirror a real startup environment.
 
 Ingestion: Python, Selenium, BeautifulSoup

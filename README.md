@@ -1,6 +1,7 @@
 Green Marble: A Data-Driven Business Transformation
 
-From Traditional Shop to Digital Enterprise
+From Traditional Shop to Digital Enterprise.
+
 For over 30 years, my father has run a successful building-materials shop in Mumbai. Inventory management, pricing, and customer relationships were all handled the old-fashioned way—with memory and notebooks. As a data engineer, I couldn't help but see a world of potential.
 
 MISSION

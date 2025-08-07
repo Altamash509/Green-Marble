@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: silver
+    database: GREEN_MARBLE      # Change if needed
+    schema: SILVER     # Change if needed
+    tables:
+      - name: tiles_silver_cleaned

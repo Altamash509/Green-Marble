@@ -1,5 +1,6 @@
 
-{{ config(materialized='view') }}
+{{ config(schema='gold') }}
+
 
 SELECT
   product_name,

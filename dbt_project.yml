@@ -36,10 +36,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  gold:
-    +schema: gold
-    +materialized: view 
+  Green-Marble:         # <-- Match this exactly to your top-level models folder
+    gold:
+      +schema: gold
+      +materialized: view
 
-  silver:
-    +schema: silver
-    +materialized: view
+    silver:
+      +schema: silver
+      +materialized: view

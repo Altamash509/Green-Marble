@@ -37,8 +37,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   green_marble:
-    +materialized: view
-
     silver:
       +schema: silver
       +materialized: view
@@ -46,4 +44,3 @@ models:
     gold:
       +schema: gold
       +materialized: view
-

@@ -1,4 +1,3 @@
- -- green_marble/gold/fct_tiles_products.sql
 
 {{ config(materialized='view') }}
 

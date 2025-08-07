@@ -8,4 +8,4 @@ SELECT
   {{ dbt_utils.generate_surrogate_key(['product_name', 'business_name', 'price']) }} AS product_id,
   CURRENT_TIMESTAMP AS snapshot_ts
 FROM {{ ref('dim_tiles') }}
-WHERE price IS NOT NULL
+WHERE price IS NOT NULL 

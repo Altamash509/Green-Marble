@@ -1,3 +1,8 @@
+{{ config(
+    schema='gold',
+    materialized='view'
+) }}
+
 SELECT
   product_name,
   price,

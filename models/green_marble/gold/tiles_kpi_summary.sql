@@ -1,3 +1,8 @@
+{{ config(
+    schema='gold',
+    materialized='view'
+) }}
+
 SELECT
   COUNT(*) AS total_products,
   COUNT(DISTINCT business_name) AS unique_businesses,

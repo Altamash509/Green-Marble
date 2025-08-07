@@ -1,10 +1,9 @@
 SELECT
-  product_name,
-  price,
-  location,
-  business_name,
-  seller_type,
-  captured_at::DATE AS ingestion_date
+  PRODUCT_NAME AS product_name,
+  PRICE AS price,
+  SELLER_LOCATION AS location,
+  BRAND AS business_name,
+  'Online' AS seller_type,
+  SCRAPED_AT::DATE AS ingestion_date
 FROM {{ source('silver', 'tiles_silver_cleaned') }}
-WHERE product_name IS NOT NULL;
- 
+WHERE PRODUCT_NAME IS NOT NULL
